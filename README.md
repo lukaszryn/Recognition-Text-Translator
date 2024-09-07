@@ -2,6 +2,12 @@
 
 Recognition-Text-Translator is a Python application that recognizes speech in real-time, converts it to text, and then translates the text into the selected language. The application uses the Tkinter library for the graphical interface, Google Speech Recognition for speech-to-text conversion, and the `translate` module for translations.
 
+# Notes
+
+- **Microphone Setup:** Ensure that your microphone is correctly configured and working. Alternatively, you can enable the Stereo Mix option on Windows, allowing the application to capture sound from the computer.
+
+- **Translation Limitations:** The application uses an online translation API, so an internet connection is required.
+
 ## Project Structure
 
 ### Folders and Files:
@@ -10,12 +16,6 @@ Recognition-Text-Translator is a Python application that recognizes speech in re
    - **`Demo-Translator.exe`** – This is a ready-to-use executable file of the application, created for Windows users. You can run it without needing to install Python or any additional dependencies.
      - **Location**: `Program - demo/Demo-Translator.exe`
      - **How to use**: Just double-click the `Demo-Translator.exe` file to launch the application. It is ready to use without further configuration.
-
-# Notes
-
-- **Microphone Setup:** Ensure that your microphone is correctly configured and working. Alternatively, you can enable the Stereo Mix option on Windows, allowing the application to capture sound from the computer.
-
-- **Translation Limitations:** The application uses an online translation API, so an internet connection is required.
   
 2. **`Project/`** 
    - Contains all the necessary files such as scripts and images required to run the Python application from the source code.
